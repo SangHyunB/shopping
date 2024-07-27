@@ -1,0 +1,78 @@
+.container {
+  
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content:center;
+    white-space:nowrap;
+    text-align: center;
+    margin: 0 auto;
+    height:100vh;
+    border: 3px solid #ccc; /* 테두리 두께와 색상 설정 */
+}
+.productImg{
+    width: 600px;
+    height: 600px;
+    object-fit:contain;
+    max-width:95%;
+    max-height:100%;
+   
+    
+
+}
+.productName{
+    text-align: left;
+    margin-left: 15%; 
+}
+.productText{
+    text-align: left;
+    margin-left: 15%; 
+}
+.price{
+    text-align: left;
+    margin-left: 15%; 
+}
+
+.button-div{
+    text-align: right;
+
+}
+
+.basket {
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(135, 202, 69);
+    border: none;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.basket:hover {
+    background-color: rgb(95, 138, 53);
+}
+
+.buy {
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(135, 202, 69);
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    border-left: 2px solid black; 
+   
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy:hover {
+    background-color: rgb(95, 138, 53);
+}
+
+

@@ -1,0 +1,51 @@
+.banner-div{
+    position: relative;
+    z-index: 0;
+}
+.banner{
+    height: 400px;
+    width: 50%;
+    background-color: rgb(192, 205, 230);
+    margin-top: 20px;
+    display: flex;
+}
+.s1{
+
+    background-image: url(./picture/엄1.jpeg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.s2{
+    background-image: url(./picture/엄2.jpeg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.s3{
+    background-image: url(./picture/엄3.jpeg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.s4{
+    background-image: url(./picture/엄4.jpeg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* MainPage.css */
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px;
+    gap: 50px; /* 아이템 사이의 간격 설정 */
+    justify-content:center
+}
+
+  
