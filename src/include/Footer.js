@@ -4,8 +4,8 @@ import "./Footer.css"
 function Footer() {
   return (
     <div className='footer'>
-        <div className='contents'>
-            <h2 className='title'>
+        <div className='foot_contents'>
+            <h2 className='footer-title'>
                 (주)슨한결
             </h2>
         </div>

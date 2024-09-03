@@ -9,11 +9,10 @@ function product({ className = '',image ,title ,text ,price }) {
         <div className="product_img_div"><img src={image} alt=" " className="product_img"/></div>
           <h5 className="product_title"> {title}</h5>
           <p className="product_des"> {text}</p>
-          <div className="product_price"> {price}￦</div>
+          <h1 className="product_price"> {price}원</h1>
           <div className="product_link_div"><Link className="product_link" to={`/products/${title}`}
-          state={{image,title,text,price}}
-
-          > 구매하기</Link></div>
+          > 구매하기</Link>
+          </div>
        </div> 
   )
 }

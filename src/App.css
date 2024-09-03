@@ -1,6 +1,12 @@
 .layout{
   padding-top: 80px;
+
+ 
 }
 .main{
-  min-height: calc(100vh - 180px);
+  min-height: calc(128 - 180px);
+
+  min-width: 1903px;
+  min-height: 1606px;
+  
 }

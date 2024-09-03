@@ -3,7 +3,6 @@ import {Swiper,SwiperSlide} from 'swiper/react';
 import { Autoplay} from 'swiper/modules';
 import Product from '../products/product.js';
 
-
 import sanz from './picture/샌즈.jpg';
 import ware from './picture/하치와레.png';
 import chi from './picture/치이카와.png'
@@ -28,8 +27,8 @@ function main_page() {
         spaceBetween={1}
         slidesPerView={1}
         loop={true}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() =>{}}
+        onSwiper={(swiper) => {}}
       >
         <SwiperSlide className='s1'></SwiperSlide>
         <SwiperSlide className='s2'></SwiperSlide>
@@ -38,14 +37,16 @@ function main_page() {
       </Swiper>
      </div>
 
-
+      <div className='page-container'>
       <div className='main-container'>
         <Product className='ii' image={sanz} title={"샌즈"} text={"샌즈입니다."} price={15000}/>
-        <Product className='ii' image={ware} title={"하치와레"} text={"하~찌익와레"} price={12000}/>
-        <Product className='ii' image={chi} title={"치이카와"} text={"찌~익카와"} price={13000}/>
+        <Product className='ii' image={ware} title={"하치와레"} text={"하치와레!"} price={12000}/>
+        <Product className='ii' image={chi} title={"치이카와"} text={"치이카와!"} price={13000}/>
         <Product className='ii' image={shoe2} title={"아디다스 신발"} text={"아디다스 신발입니다"} price={45000}/>
         <Product className='ii' image={shoe1} title={"네셔널 지오그래픽 신발"} text={"네셔널 지오그래픽 신발입니다"} price={65000}/>
       </div>
+      </div>
+  
     
     </div> 
   )

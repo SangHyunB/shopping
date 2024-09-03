@@ -1,0 +1,31 @@
+.sidebar-container{
+    position: fixed;
+    right: 3%;
+    top: 15%;
+    z-index: 2;
+   
+}
+.sidebar{
+    width: 110px;
+    height: 550px;
+    background-color: rgb(251, 255, 255);
+    border: 1px solid rgb(170, 169, 169);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar {
+    display: none;
+  }
+.내용물{
+    margin-top: 20%;
+    margin-bottom: 20%;
+   
+}
+.사진{
+    width: 80px;
+    height: 80px;
+}

@@ -3,34 +3,35 @@
     z-index: 0;
 }
 .banner{
-    height: 400px;
-    width: 50%;
+    height: 330px;
+    width: 952px;
     background-color: rgb(192, 205, 230);
     margin-top: 20px;
-    display: flex;
+   
+    border-radius: 10px;
 }
 .s1{
-
-    background-image: url(./picture/엄1.jpeg);
+   
+    background-image: url(./picture/배너샘플2.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .s2{
-    background-image: url(./picture/엄2.jpeg);
+    background-image: url(./picture/배너샘플3.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 .s3{
-    background-image: url(./picture/엄3.jpeg);
+    background-image: url(./picture/배너샘플4.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 .s4{
-    background-image: url(./picture/엄4.jpeg);
+    background-image: url(./picture/배너샘플6.jpg);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,9 +44,20 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    padding: 50px;
-    gap: 50px; /* 아이템 사이의 간격 설정 */
-    justify-content:center
+    padding: 100px;
+    gap: 50px; 
+    justify-content:center;
+    box-sizing: border-box;
+    max-width: 1903px;
+    max-height: 1299px;
+    
 }
+.page-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
   

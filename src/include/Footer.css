@@ -1,19 +1,21 @@
 .footer{
+  
     height: 100px;
-    margin-top: auto;
+    margin-top:auto;
     background-color: darkgrey;
+    box-sizing: border-box;
 }
-.contents{
+.foot_contents{
     width: 96%;
-    max-width: 1100px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
 }
-.title{
-    font-weight: 600;
+.footer-title{
+  
+    margin: 0 auto;
     font-size: 20px;
 
 }
